@@ -1,0 +1,81 @@
+.wp-block-button__link svg{fill:currentcolor;vertical-align:middle}
+
+/* Button - Primary Filled Style
+--------------------------------------------- */
+ .wp-block-button.is-style-primary-filled-button .wp-block-button__link {
+	border: none;
+	background-color:  var(--wp--preset--color--primary-700);
+	color: var(--wp--preset--color--white) !important;
+	padding: 0.5rem 1rem !important;
+}
+
+.wp-block-button.is-style-primary-filled-button .wp-block-button__link:hover {
+	text-decoration: underline;
+}
+
+/* Button - Primary Stroke Style
+--------------------------------------------- */
+.wp-block-button.is-style-primary-stroke-button .wp-block-button__link {
+	border: 1px solid var(--wp--preset--color--primary-700);
+	background-color: transparent;
+	color: var(--wp--preset--color--neutral-900);
+	padding: 0.5rem 1rem !important;
+}
+
+.wp-block-button.is-style-primary-stroke-button .wp-block-button__link:hover {
+	text-decoration: underline;
+}
+
+/* Button - Primary Lighter Style
+--------------------------------------------- */
+.wp-block-button.is-style-primary-lighter-button .wp-block-button__link {
+	border: none;
+	background-color:  var(--wp--preset--color--primary-50);
+	color: var(--wp--preset--color--primary-700) !important;
+	padding: 0.5rem 1rem !important;
+}
+
+.wp-block-button.is-style-primary-lighter-button .wp-block-button__link:hover {
+	text-decoration: underline;
+}
+
+
+/* Button - Neutral Filled Style
+--------------------------------------------- */
+.wp-block-button.is-style-neutral-filled-button .wp-block-button__link {
+	border: none;
+	background-color:  var(--wp--preset--color--neutral-900);
+	color: var(--wp--preset--color--white) !important;
+	padding: 0.5rem 1rem !important;
+}
+
+.wp-block-button.is-style-neutral-filled-button .wp-block-button__link:hover {
+	text-decoration: underline;
+}
+
+/* Button - Neutral Stroke Style
+--------------------------------------------- */
+.wp-block-button.is-style-neutral-stroke-button .wp-block-button__link {
+	border: 1px solid var(--wp--preset--color--neutral-200);
+	background-color: transparent;
+	color: var(--wp--preset--color--neutral-900);
+	padding: 0.5rem 1rem !important;
+}
+
+.wp-block-button.is-style-neutral-stroke-button .wp-block-button__link:hover {
+	text-decoration: underline;
+}
+
+/* Button - Neutral Lighter Style
+--------------------------------------------- */
+.wp-block-button.is-style-neutral-lighter-button .wp-block-button__link {
+	border: none;
+	background-color:  var(--wp--preset--color--neutral-200);
+	color: var(--wp--preset--color--neutral-900) !important;
+	padding: 0.5rem 1rem !important;
+}
+
+.wp-block-button.is-style-neutral-lighter-button .wp-block-button__link:hover {
+	text-decoration: underline;
+}
+
