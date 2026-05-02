@@ -1,24 +1,21 @@
-name: Deploy to WordPress.org Theme
-
+name: Deploy to WordPress.org
 on:
   push:
     tags:
-      - "*"
-
+    - "*"
 jobs:
-  deploy:
-    name: Deploy Theme
+  tag:
+    name: New tag
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-
-      - name: Install Subversion
-        run: sudo apt-get update && sudo apt-get install -y subversion
-
-      - name: Deploy to WordPress.org
-        uses: 10up/action-wordpress-plugin-deploy@stable
-        env:
-          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
-          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
-          SLUG: blockera
+    - uses: actions/checkout@master
+    - name: Build # Remove or modify this step as needed
+      run: |
+        npm install
+        npm run build
+    - name: WordPress Theme Deploy
+      uses: Codeinwp/action-wordpress-theme-deploy@primary
+      env:
+        SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+        SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+        SLUG: blockera # optional, remove if GitHub repo name matches SVN slug, including capitalization
