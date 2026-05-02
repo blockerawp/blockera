@@ -1,20 +1,23 @@
-name: Deploy Theme to WordPress.org
+name: Deploy to WordPress.org Theme
 
 on:
   push:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   deploy:
+    name: Deploy Theme
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Deploy to WordPress.org Theme SVN
+      - uses: actions/checkout@v4
+
+      - name: Install Subversion
+        run: sudo apt-get update && sudo apt-get install -y subversion
+
+      - name: Deploy to WordPress.org
         uses: 10up/action-wordpress-plugin-deploy@stable
-        with:
-          build-dir: '.'
         env:
           SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
