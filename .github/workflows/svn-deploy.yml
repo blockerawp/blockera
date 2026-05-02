@@ -1,24 +1,89 @@
-name: Deploy to WordPress.org
+name: Deploy to WordPress.org (with diagnostics)
+
 on:
-  release:
-    types: [published]
+  push:
+    tags:
+      - "*"
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   deploy:
-    name: Deploy on release
+    name: Deploy WordPress Theme
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    
     steps:
-    - uses: actions/checkout@v4
-    - name: WordPress Theme Deploy
-      id: deploy
-      uses: kishanjasani/action-wordpress-theme-deploy@main
-      with:
-        generate-zip: true
-      env:
-        SVN_PASSWORD: ${{ secrets.WPORG_SVN_PASSWORD }}
-        SVN_USERNAME: ${{ secrets.WPORG_SVN_USERNAME }}
-    - name: Upload ZIP to release
-      uses: softprops/action-gh-release@v2
-      with:
-        files: ${{ steps.deploy.outputs.zip-path }}
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: 🔍 Diagnostic - Check repository structure
+        run: |
+          echo "================================================"
+          echo "📁 Repository Structure Check"
+          echo "================================================"
+          ls -la
+          echo ""
+          echo "================================================"
+          echo "📄 Checking style.css"
+          echo "================================================"
+          if [ -f "style.css" ]; then
+            echo "✅ style.css exists"
+            echo "First 25 lines:"
+            head -25 style.css
+          else
+            echo "❌ style.css NOT FOUND!"
+            echo "This is REQUIRED for WordPress themes"
+          fi
+          echo ""
+          echo "================================================"
+          echo "📄 Checking readme.txt"
+          echo "================================================"
+          if [ -f "readme.txt" ]; then
+            echo "✅ readme.txt exists"
+            echo "First 25 lines:"
+            head -25 readme.txt
+          else
+            echo "❌ readme.txt NOT FOUND!"
+            echo "This is REQUIRED for WordPress.org"
+          fi
+          echo ""
+          echo "================================================"
+          echo "🏷️ Current Git Tag"
+          echo "================================================"
+          echo "Tag: ${GITHUB_REF#refs/tags/}"
+          echo ""
+      
+      - name: 🔐 Verify secrets are set
+        run: |
+          echo "================================================"
+          echo "🔐 Checking GitHub Secrets"
+          echo "================================================"
+          if [ -z "${{ secrets.SVN_USERNAME }}" ]; then
+            echo "❌ ERROR: SVN_USERNAME secret is NOT set"
+            echo "Go to: Settings → Secrets and variables → Actions"
+            echo "Add secret named: SVN_USERNAME"
+            exit 1
+          else
+            echo "✅ SVN_USERNAME is set (length: ${#SVN_USERNAME})"
+          fi
+          
+          if [ -z "${{ secrets.SVN_PASSWORD }}" ]; then
+            echo "❌ ERROR: SVN_PASSWORD secret is NOT set"
+            echo "Go to: Settings → Secrets and variables → Actions"
+            echo "Add secret named: SVN_PASSWORD"
+            exit 1
+          else
+            echo "✅ SVN_PASSWORD is set (length: ${#SVN_PASSWORD})"
+          fi
+          echo "================================================"
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+      
+      - name: 🚀 Deploy to WordPress.org
+        uses: kishanjasani/action-wordpress-theme-deploy@main
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: blockera
