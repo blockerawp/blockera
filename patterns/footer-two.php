@@ -28,23 +28,23 @@
 
         <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
         <div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-950"}}}},"textColor":"neutral-950"} -->
-            <p class="has-neutral-950-color has-text-color has-link-color">Link One</p>
+            <p class="has-neutral-950-color has-text-color has-link-color"><?php esc_html_e('Link One', 'blockera'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-950"}}}},"textColor":"neutral-950"} -->
-            <p class="has-neutral-950-color has-text-color has-link-color">Link Two</p>
+            <p class="has-neutral-950-color has-text-color has-link-color"><?php esc_html_e('Link Two', 'blockera'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-950"}}}},"textColor":"neutral-950"} -->
-            <p class="has-neutral-950-color has-text-color has-link-color">Link Three</p>
+            <p class="has-neutral-950-color has-text-color has-link-color"><?php esc_html_e('Link Three', 'blockera'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-950"}}}},"textColor":"neutral-950"} -->
-            <p class="has-neutral-950-color has-text-color has-link-color">Link Four</p>
+            <p class="has-neutral-950-color has-text-color has-link-color"><?php esc_html_e('Link Four', 'blockera'); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|neutral-950"}}}},"textColor":"neutral-950"} -->
-            <p class="has-neutral-950-color has-text-color has-link-color">Link Five</p>
+            <p class="has-neutral-950-color has-text-color has-link-color"><?php esc_html_e('Link Five', 'blockera'); ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
@@ -66,7 +66,7 @@
             <!-- /wp:social-links -->
 
             <!-- wp:paragraph -->
-            <p>© <a href="https://blockerawp.com/">Blockera</a>. All rights reserved.</p>
+            <p><?php esc_html_e('©', 'blockera'); ?><a href="https://blockerawp.com/"><?php esc_html_e('Blockera', 'blockera'); ?></a><?php esc_html_e('. All rights reserved.', 'blockera'); ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->

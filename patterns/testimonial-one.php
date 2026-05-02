@@ -4,26 +4,27 @@
  * Title: Testimonial One
  * Slug: testimonial-one
  * Categories: blockera/testimonials
- * Description: Contact details with call to action buttons and a testimonial
- * Keywords: contact, testimonial, about, columns, ratings, email, phone
+ * Description:
  * Viewport Width: 1440
  * Block Types:
  * Post Types:
  * Inserter: true
  */
 ?>
+
 <!-- wp:group {"metadata":{"name":"Testimonial One","categories":["blockera/testimonials"],"patternName":"testimonial-one"},"align":"full","style":{"position":{"type":""},"spacing":{"padding":{"top":"var:preset|spacing|9-xl","bottom":"var:preset|spacing|9-xl","left":"var:preset|spacing|2-xl","right":"var:preset|spacing|2-xl"},"blockGap":"var:preset|spacing|7-xl","margin":{"top":"0","bottom":"0"}}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-primary-50-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--9-xl);padding-right:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--9-xl);padding-left:var(--wp--preset--spacing--2-xl)"><!-- wp:group {"align":"wide","style":{"spacing":{"blockGap":"var:preset|spacing|xl","padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-primary-50-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--9-xl);padding-right:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--9-xl);padding-left:var(--wp--preset--spacing--2-xl)"><!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"var:preset|spacing|lg"}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group alignwide" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"align":"center","textColor":"primary-700"} -->
-        <p class="has-text-align-center has-primary-700-color has-text-color">Testimonials</p>
+        <p class="has-text-align-center has-primary-700-color has-text-color"><?php esc_html_e('Testimonials', 'blockera'); ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:heading {"textAlign":"center"} -->
-        <h2 class="wp-block-heading has-text-align-center">Loved by businesses worldwide.</h2>
+        <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e('Loved by businesses worldwide.', 'blockera'); ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center"} -->
-        <p class="has-text-align-center">Aliquam eu lacus sodales, pretium ex in, maximus dolor. Curabitur vehicula blandit lacus et venenatis. Integer tincidunt rutrum erat non accumsan.</p>
+        <p class="has-text-align-center"><?php esc_html_e('Aliquam eu lacus sodales, pretium ex in, maximus dolor. Curabitur vehicula blandit lacus et venenatis.
+            Integer tincidunt rutrum erat non accumsan.', 'blockera'); ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -31,17 +32,20 @@
     <!-- wp:group {"align":"wide","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"center"}} -->
     <div class="wp-block-group alignwide"><!-- wp:columns -->
         <div class="wp-block-columns"><!-- wp:column {"width":"50%"} -->
-            <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|xl"},"border":{"radius":"16px","width":"1px","color":"#bfdbfe"}},"backgroundColor":"white","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
-                <div class="wp-block-group has-border-color has-white-background-color has-background" style="border-color:#bfdbfe;border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"xl"} -->
-                    <p class="has-luminous-vivid-amber-color has-text-color has-xl-font-size">★★★★★</p>
-                    <!-- /wp:paragraph -->
+            <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|2-xl"},"border":{"radius":"16px","width":"1px"}},"backgroundColor":"white","borderColor":"primary-200","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
+                <div class="wp-block-group has-border-color has-primary-200-border-color has-white-background-color has-background" style="border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"2xl"} -->
+                        <p class="has-luminous-vivid-amber-color has-text-color has-2-xl-font-size"><?php esc_html_e('★★★★★', 'blockera'); ?></p>
+                        <!-- /wp:paragraph -->
 
-                    <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
-                    <h3 class="wp-block-heading has-text-align-center has-xl-font-size">Simply fantastic!</h3>
-                    <!-- /wp:heading -->
+                        <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
+                        <h3 class="wp-block-heading has-text-align-center has-xl-font-size"><?php esc_html_e('Simply fantastic!', 'blockera'); ?></h3>
+                        <!-- /wp:heading -->
+                    </div>
+                    <!-- /wp:group -->
 
                     <!-- wp:paragraph {"align":"left"} -->
-                    <p class="has-text-align-left">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus eros sit amet."</p>
+                    <p class="has-text-align-left"><?php esc_html_e('"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur faucibus eros sit amet."', 'blockera'); ?></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -51,11 +55,11 @@
 
                         <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
                         <div class="wp-block-group"><!-- wp:paragraph {"align":"left","textColor":"neutral-900"} -->
-                            <p class="has-text-align-left has-neutral-900-color has-text-color">Name Surname</p>
+                            <p class="has-text-align-left has-neutral-900-color has-text-color"><?php esc_html_e('Name Surname', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
 
                             <!-- wp:paragraph {"align":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":1.1}},"textColor":"neutral-600","fontSize":"sm"} -->
-                            <p class="has-text-align-left has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1">Position @company</p>
+                            <p class="has-text-align-left has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1"><?php esc_html_e('Position @company', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -64,17 +68,20 @@
                 </div>
                 <!-- /wp:group -->
 
-                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|xl"},"border":{"radius":"16px","width":"1px","color":"#bfdbfe"}},"backgroundColor":"white","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
-                <div class="wp-block-group has-border-color has-white-background-color has-background" style="border-color:#bfdbfe;border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"xl"} -->
-                    <p class="has-luminous-vivid-amber-color has-text-color has-xl-font-size">★★★★★</p>
-                    <!-- /wp:paragraph -->
+                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|2-xl"},"border":{"radius":"16px","width":"1px"}},"backgroundColor":"white","borderColor":"primary-200","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
+                <div class="wp-block-group has-border-color has-primary-200-border-color has-white-background-color has-background" style="border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"2xl"} -->
+                        <p class="has-luminous-vivid-amber-color has-text-color has-2-xl-font-size"><?php esc_html_e('★★★★★', 'blockera'); ?></p>
+                        <!-- /wp:paragraph -->
 
-                    <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
-                    <h3 class="wp-block-heading has-text-align-center has-xl-font-size">Support is good</h3>
-                    <!-- /wp:heading -->
+                        <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
+                        <h3 class="wp-block-heading has-text-align-center has-xl-font-size"><?php esc_html_e('Support is good', 'blockera'); ?></h3>
+                        <!-- /wp:heading -->
+                    </div>
+                    <!-- /wp:group -->
 
                     <!-- wp:paragraph -->
-                    <p>"Donec a felis quis sapien consequat porta. Integer sed consectetur nulla, non porttitor mi. Morbi dapibus dui a odio suscipit sollicitudin."</p>
+                    <p><?php esc_html_e('"Donec a felis quis sapien consequat porta. Integer sed consectetur nulla, non porttitor mi. Morbi dapibus dui a odio suscipit sollicitudin."', 'blockera'); ?></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -84,11 +91,11 @@
 
                         <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
                         <div class="wp-block-group"><!-- wp:paragraph {"align":"center","textColor":"neutral-900"} -->
-                            <p class="has-text-align-center has-neutral-900-color has-text-color">Name Surname</p>
+                            <p class="has-text-align-center has-neutral-900-color has-text-color"><?php esc_html_e('Name Surname', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
 
                             <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":1.1}},"textColor":"neutral-600","fontSize":"sm"} -->
-                            <p class="has-text-align-center has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1">Position @company</p>
+                            <p class="has-text-align-center has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1"><?php esc_html_e('Position @company', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -100,17 +107,21 @@
             <!-- /wp:column -->
 
             <!-- wp:column {"width":"50%"} -->
-            <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|xl"},"border":{"radius":"16px","width":"1px","color":"#bfdbfe"}},"backgroundColor":"white","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
-                <div class="wp-block-group has-border-color has-white-background-color has-background" style="border-color:#bfdbfe;border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"xl"} -->
-                    <p class="has-luminous-vivid-amber-color has-text-color has-xl-font-size">★★★★★</p>
-                    <!-- /wp:paragraph -->
+            <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|2-xl"},"border":{"radius":"16px","width":"1px"}},"backgroundColor":"white","borderColor":"primary-200","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
+                <div class="wp-block-group has-border-color has-primary-200-border-color has-white-background-color has-background" style="border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"2xl"} -->
+                        <p class="has-luminous-vivid-amber-color has-text-color has-2-xl-font-size"><?php esc_html_e('★★★★★', 'blockera'); ?></p>
+                        <!-- /wp:paragraph -->
 
-                    <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
-                    <h3 class="wp-block-heading has-text-align-center has-xl-font-size">Support is good</h3>
-                    <!-- /wp:heading -->
+                        <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
+                        <h3 class="wp-block-heading has-text-align-center has-xl-font-size"><?php esc_html_e('I absolutely love it', 'blockera'); ?></h3>
+                        <!-- /wp:heading -->
+                    </div>
+                    <!-- /wp:group -->
 
                     <!-- wp:paragraph -->
-                    <p>"Aliquam eu lacus sodales, pretium ex in, maximus dolor. Curabitur vehicula blandit lacus et venenatis. Integer tincidunt rutrum erat non accumsan. Praesent eu nibh lorem. ivamus vitae dolor iaculis, feugiat lacus eget."</p>
+                    <p><?php esc_html_e('"Aliquam eu lacus sodales, pretium ex in, maximus dolor. Curabitur vehicula blandit lacus et venenatis. Integer tincidunt rutrum erat non accumsan.
+                        Praesent eu nibh lorem. ivamus vitae dolor iaculis, feugiat lacus eget."', 'blockera'); ?></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -120,11 +131,11 @@
 
                         <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
                         <div class="wp-block-group"><!-- wp:paragraph {"align":"center","textColor":"neutral-900"} -->
-                            <p class="has-text-align-center has-neutral-900-color has-text-color">Name Surname</p>
+                            <p class="has-text-align-center has-neutral-900-color has-text-color"><?php esc_html_e('Name Surname', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
 
                             <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":1.1}},"textColor":"neutral-600","fontSize":"sm"} -->
-                            <p class="has-text-align-center has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1">Position @company</p>
+                            <p class="has-text-align-center has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1"><?php esc_html_e('Position @company', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -133,17 +144,20 @@
                 </div>
                 <!-- /wp:group -->
 
-                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|xl"},"border":{"radius":"16px","width":"1px","color":"#bfdbfe"}},"backgroundColor":"white","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
-                <div class="wp-block-group has-border-color has-white-background-color has-background" style="border-color:#bfdbfe;border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"xl"} -->
-                    <p class="has-luminous-vivid-amber-color has-text-color has-xl-font-size">★★★★★</p>
-                    <!-- /wp:paragraph -->
+                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|2-xl"},"border":{"radius":"16px","width":"1px"}},"backgroundColor":"white","borderColor":"primary-200","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
+                <div class="wp-block-group has-border-color has-primary-200-border-color has-white-background-color has-background" style="border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"2xl"} -->
+                        <p class="has-luminous-vivid-amber-color has-text-color has-2-xl-font-size"><?php esc_html_e('★★★★★', 'blockera'); ?></p>
+                        <!-- /wp:paragraph -->
 
-                    <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
-                    <h3 class="wp-block-heading has-text-align-center has-xl-font-size">Simply fantastic!</h3>
-                    <!-- /wp:heading -->
+                        <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
+                        <h3 class="wp-block-heading has-text-align-center has-xl-font-size"><?php esc_html_e('Favorite timesaving tool', 'blockera'); ?></h3>
+                        <!-- /wp:heading -->
+                    </div>
+                    <!-- /wp:group -->
 
                     <!-- wp:paragraph {"align":"left"} -->
-                    <p class="has-text-align-left">"Aliquam sit amet nibh facilisis, vestibulum orci id, gravida urna. Ut semper sem nisi."</p>
+                    <p class="has-text-align-left"><?php esc_html_e('"Aliquam sit amet nibh facilisis, vestibulum orci id, gravida urna. Ut semper sem nisi."', 'blockera'); ?></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -153,11 +167,11 @@
 
                         <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
                         <div class="wp-block-group"><!-- wp:paragraph {"align":"left","textColor":"neutral-900"} -->
-                            <p class="has-text-align-left has-neutral-900-color has-text-color">Name Surname</p>
+                            <p class="has-text-align-left has-neutral-900-color has-text-color"><?php esc_html_e('Name Surname', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
 
                             <!-- wp:paragraph {"align":"left","style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":1.1}},"textColor":"neutral-600","fontSize":"sm"} -->
-                            <p class="has-text-align-left has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1">Position @company</p>
+                            <p class="has-text-align-left has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1"><?php esc_html_e('Position @company', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -169,17 +183,20 @@
             <!-- /wp:column -->
 
             <!-- wp:column {"width":"50%","layout":{"type":"default"}} -->
-            <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|xl"},"border":{"radius":"16px","width":"1px","color":"#bfdbfe"}},"backgroundColor":"white","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
-                <div class="wp-block-group has-border-color has-white-background-color has-background" style="border-color:#bfdbfe;border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"xl"} -->
-                    <p class="has-luminous-vivid-amber-color has-text-color has-xl-font-size">★★★★★</p>
-                    <!-- /wp:paragraph -->
+            <div class="wp-block-column" style="flex-basis:50%"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|2-xl"},"border":{"radius":"16px","width":"1px"}},"backgroundColor":"white","borderColor":"primary-200","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
+                <div class="wp-block-group has-border-color has-primary-200-border-color has-white-background-color has-background" style="border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"2xl"} -->
+                        <p class="has-luminous-vivid-amber-color has-text-color has-2-xl-font-size"><?php esc_html_e('★★★★★', 'blockera'); ?></p>
+                        <!-- /wp:paragraph -->
 
-                    <!-- wp:heading {"level":3,"fontSize":"xl"} -->
-                    <h3 class="wp-block-heading has-xl-font-size">Completely changed my workflow</h3>
-                    <!-- /wp:heading -->
+                        <!-- wp:heading {"level":3,"fontSize":"xl"} -->
+                        <h3 class="wp-block-heading has-xl-font-size"><?php esc_html_e('Completely changed my workflow', 'blockera'); ?></h3>
+                        <!-- /wp:heading -->
+                    </div>
+                    <!-- /wp:group -->
 
                     <!-- wp:paragraph {"align":"left"} -->
-                    <p class="has-text-align-left">"Nullam lacus sapien, lacinia non volutpat vel, interdum sed mi. Fusce bibendum venenatis nunc, vehicula aliquet tellus tempus eget."</p>
+                    <p class="has-text-align-left"><?php esc_html_e('"Nullam lacus sapien, lacinia non volutpat vel, interdum sed mi. Fusce bibendum venenatis nunc, vehicula aliquet tellus tempus eget."', 'blockera'); ?></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -189,11 +206,11 @@
 
                         <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
                         <div class="wp-block-group"><!-- wp:paragraph {"align":"center","textColor":"neutral-900"} -->
-                            <p class="has-text-align-center has-neutral-900-color has-text-color">Name Surname</p>
+                            <p class="has-text-align-center has-neutral-900-color has-text-color"><?php esc_html_e('Name Surname', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
 
                             <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":1.1}},"textColor":"neutral-600","fontSize":"sm"} -->
-                            <p class="has-text-align-center has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1">Position @company</p>
+                            <p class="has-text-align-center has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1"><?php esc_html_e('Position @company', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->
@@ -202,17 +219,20 @@
                 </div>
                 <!-- /wp:group -->
 
-                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|xl"},"border":{"radius":"16px","width":"1px","color":"#bfdbfe"}},"backgroundColor":"white","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
-                <div class="wp-block-group has-border-color has-white-background-color has-background" style="border-color:#bfdbfe;border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"xl"} -->
-                    <p class="has-luminous-vivid-amber-color has-text-color has-xl-font-size">★★★★★</p>
-                    <!-- /wp:paragraph -->
+                <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|3-xl","right":"var:preset|spacing|3-xl","bottom":"var:preset|spacing|3-xl","left":"var:preset|spacing|3-xl"},"blockGap":"var:preset|spacing|2-xl"},"border":{"radius":"16px","width":"1px"}},"backgroundColor":"white","borderColor":"primary-200","layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
+                <div class="wp-block-group has-border-color has-primary-200-border-color has-white-background-color has-background" style="border-width:1px;border-radius:16px;padding-top:var(--wp--preset--spacing--3-xl);padding-right:var(--wp--preset--spacing--3-xl);padding-bottom:var(--wp--preset--spacing--3-xl);padding-left:var(--wp--preset--spacing--3-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|md"}},"layout":{"type":"constrained"}} -->
+                    <div class="wp-block-group"><!-- wp:paragraph {"textColor":"luminous-vivid-amber","fontSize":"2xl"} -->
+                        <p class="has-luminous-vivid-amber-color has-text-color has-2-xl-font-size"><?php esc_html_e('★★★★★', 'blockera'); ?></p>
+                        <!-- /wp:paragraph -->
 
-                    <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
-                    <h3 class="wp-block-heading has-text-align-center has-xl-font-size">Nice tool for freelancers</h3>
-                    <!-- /wp:heading -->
+                        <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"xl"} -->
+                        <h3 class="wp-block-heading has-text-align-center has-xl-font-size"><?php esc_html_e('Nice tool for freelancers', 'blockera'); ?></h3>
+                        <!-- /wp:heading -->
+                    </div>
+                    <!-- /wp:group -->
 
                     <!-- wp:paragraph {"align":"left"} -->
-                    <p class="has-text-align-left">"Mauris nunc enim, imperdiet quis metus nec, vehicula cursus justo. Integer vitae laoreet elit."</p>
+                    <p class="has-text-align-left"><?php esc_html_e('"Mauris nunc enim, imperdiet quis metus nec, vehicula cursus justo. Integer vitae laoreet elit."', 'blockera'); ?></p>
                     <!-- /wp:paragraph -->
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"14px"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -222,11 +242,11 @@
 
                         <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","flexWrap":"nowrap","orientation":"vertical","justifyContent":"left"}} -->
                         <div class="wp-block-group"><!-- wp:paragraph {"align":"center","textColor":"neutral-900"} -->
-                            <p class="has-text-align-center has-neutral-900-color has-text-color">Name Surname</p>
+                            <p class="has-text-align-center has-neutral-900-color has-text-color"><?php esc_html_e('Name Surname', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
 
                             <!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"400","lineHeight":1.1}},"textColor":"neutral-600","fontSize":"sm"} -->
-                            <p class="has-text-align-center has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1">Position @company</p>
+                            <p class="has-text-align-center has-neutral-600-color has-text-color has-sm-font-size" style="font-style:normal;font-weight:400;line-height:1.1"><?php esc_html_e('Position @company', 'blockera'); ?></p>
                             <!-- /wp:paragraph -->
                         </div>
                         <!-- /wp:group -->

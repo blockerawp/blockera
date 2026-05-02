@@ -21,30 +21,30 @@
             <!-- /wp:image -->
 
             <!-- wp:paragraph {"align":"center","className":"wp-block-heading","style":{"color":{"text":"#000000"},"elements":{"link":{"color":{"text":"#000000"}}}},"fontSize":"xl"} -->
-            <p class="has-text-align-center wp-block-heading has-text-color has-link-color has-xl-font-size" style="color:#000000">Your Name</p>
+            <p class="has-text-align-center wp-block-heading has-text-color has-link-color has-xl-font-size" style="color:#000000"><?php esc_html_e( 'Your Name', 'blockera' ); ?></p>
             <!-- /wp:paragraph -->
 
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center">A little something about yourself.</p>
+            <p class="has-text-align-center"><?php esc_html_e( 'A little something about yourself.', 'blockera' ); ?></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:group -->
 
         <!-- wp:buttons {"style":{"spacing":{"blockGap":"var:preset|spacing|xl"}},"layout":{"type":"flex","justifyContent":"center","orientation":"horizontal"}} -->
         <div class="wp-block-buttons"><!-- wp:button {"backgroundColor":"white","textColor":"primary-700","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-700"}}},"border":{"width":"1px"}},"borderColor":"primary-200"} -->
-            <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-700-color has-white-background-color has-text-color has-background has-link-color has-border-color has-primary-200-border-color wp-element-button" href="#" style="border-width:1px">Visit My Website</a></div>
+            <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-700-color has-white-background-color has-text-color has-background has-link-color has-border-color has-primary-200-border-color wp-element-button" href="#" style="border-width:1px"><?php esc_html_e( 'Visit My Website', 'blockera' ); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"backgroundColor":"white","textColor":"primary-700","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-700"}}},"border":{"width":"1px"}},"borderColor":"primary-200"} -->
-            <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-700-color has-white-background-color has-text-color has-background has-link-color has-border-color has-primary-200-border-color wp-element-button" href="#" style="border-width:1px">Shop My Store</a></div>
+            <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-700-color has-white-background-color has-text-color has-background has-link-color has-border-color has-primary-200-border-color wp-element-button" href="#" style="border-width:1px"><?php esc_html_e( 'Shop My Store', 'blockera' ); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"backgroundColor":"white","textColor":"primary-700","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-700"}}},"border":{"width":"1px"}},"borderColor":"primary-200"} -->
-            <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-700-color has-white-background-color has-text-color has-background has-link-color has-border-color has-primary-200-border-color wp-element-button" href="#" style="border-width:1px">View My Services</a></div>
+            <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-700-color has-white-background-color has-text-color has-background has-link-color has-border-color has-primary-200-border-color wp-element-button" href="#" style="border-width:1px"><?php esc_html_e( 'View My Services', 'blockera' ); ?></a></div>
             <!-- /wp:button -->
 
             <!-- wp:button {"backgroundColor":"white","textColor":"primary-700","width":100,"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-700"}}},"border":{"width":"1px"}},"borderColor":"primary-200"} -->
-            <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-700-color has-white-background-color has-text-color has-background has-link-color has-border-color has-primary-200-border-color wp-element-button" href="#" style="border-width:1px">Read My Journal</a></div>
+            <div class="wp-block-button has-custom-width wp-block-button__width-100"><a class="wp-block-button__link has-primary-700-color has-white-background-color has-text-color has-background has-link-color has-border-color has-primary-200-border-color wp-element-button" href="#" style="border-width:1px"><?php esc_html_e( 'Read My Journal', 'blockera' ); ?></a></div>
             <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->

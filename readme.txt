@@ -6,16 +6,20 @@ Requires at least: 6.3
 Requires PHP: 7.4
 Version: 1.0.0
 Stable tag: 1.0.0
-License: GPLv3 or later
-License URI: https://www.gnu.org/licenses/gpl-3.0.html
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 Block based WordPress starter theme.
 
 == Changelog ==
 
-= 1.0.0 | 1st Jan 2026 =
-* Major Update
+= 1.0.0 | 2nd May 2026 =
+* Major Update 
+* Added block patterns
+* Added block styles
+* Added block templates
+* Update screenshot
 
 = 0.0.3 | 16th May 2023 =
 * Fixed default strings in patterns to make them translation ready.

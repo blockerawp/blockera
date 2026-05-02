@@ -14,13 +14,13 @@
 ?>
 
 <!-- wp:group {"metadata":{"name":"Our Team Two","categories":["blockera/our-team"],"patternName":"our-team-two"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|9-xl","bottom":"var:preset|spacing|9-xl","left":"var:preset|spacing|2-xl","right":"var:preset|spacing|2-xl"},"blockGap":"var:preset|spacing|7-xl","margin":{"top":"0","bottom":"0"}}},"backgroundColor":"neutral-900","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-neutral-900-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--9-xl);padding-right:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--9-xl);padding-left:var(--wp--preset--spacing--2-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xl"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-neutral-900-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--9-xl);padding-right:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--9-xl);padding-left:var(--wp--preset--spacing--2-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|lg"}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","align":"full","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-        <h2 class="wp-block-heading alignfull has-text-align-center has-white-color has-text-color has-link-color">Our Team</h2>
+        <h2 class="wp-block-heading alignfull has-text-align-center has-white-color has-text-color has-link-color"><?php esc_html_e('Our Team', 'blockera'); ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white"} -->
-        <p class="has-text-align-center has-white-color has-text-color has-link-color">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="has-text-align-center has-white-color has-text-color has-link-color"><?php esc_html_e('Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'blockera'); ?></p>
         <!-- /wp:paragraph -->
     </div>
     <!-- /wp:group -->
@@ -35,11 +35,11 @@
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
                     <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","fontSize":"2xl"} -->
-                        <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color has-2-xl-font-size">Full Name</h3>
+                        <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color has-2-xl-font-size"><?php esc_html_e('Full Name', 'blockera'); ?></h3>
                         <!-- /wp:heading -->
 
                         <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"lg"} -->
-                        <h3 class="wp-block-heading has-white-color has-text-color has-link-color has-lg-font-size">Job Title</h3>
+                        <h3 class="wp-block-heading has-white-color has-text-color has-link-color has-lg-font-size"><?php esc_html_e('Job Title', 'blockera'); ?></h3>
                         <!-- /wp:heading -->
                     </div>
                     <!-- /wp:group -->
@@ -70,11 +70,11 @@
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
                     <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","fontSize":"2xl"} -->
-                        <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color has-2-xl-font-size">Full Name</h3>
+                        <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color has-2-xl-font-size"><?php esc_html_e('Full Name', 'blockera'); ?></h3>
                         <!-- /wp:heading -->
 
                         <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"lg"} -->
-                        <h3 class="wp-block-heading has-white-color has-text-color has-link-color has-lg-font-size">Job Title</h3>
+                        <h3 class="wp-block-heading has-white-color has-text-color has-link-color has-lg-font-size"><?php esc_html_e('Job Title', 'blockera'); ?></h3>
                         <!-- /wp:heading -->
                     </div>
                     <!-- /wp:group -->
@@ -105,11 +105,11 @@
 
                     <!-- wp:group {"style":{"spacing":{"blockGap":"4px"}},"layout":{"type":"flex","orientation":"vertical","justifyContent":"center"}} -->
                     <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":3,"textColor":"white","fontSize":"2xl"} -->
-                        <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color has-2-xl-font-size">Full Name</h3>
+                        <h3 class="wp-block-heading has-text-align-center has-white-color has-text-color has-2-xl-font-size"><?php esc_html_e('Full Name', 'blockera'); ?></h3>
                         <!-- /wp:heading -->
 
                         <!-- wp:heading {"level":3,"style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"lg"} -->
-                        <h3 class="wp-block-heading has-white-color has-text-color has-link-color has-lg-font-size">Job Title</h3>
+                        <h3 class="wp-block-heading has-white-color has-text-color has-link-color has-lg-font-size"><?php esc_html_e('Job Title', 'blockera'); ?></h3>
                         <!-- /wp:heading -->
                     </div>
                     <!-- /wp:group -->

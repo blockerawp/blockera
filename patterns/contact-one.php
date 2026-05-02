@@ -14,22 +14,22 @@
 ?>
 
 <!-- wp:group {"metadata":{"name":"Contact One","categories":["blockera/contact"],"patternName":"contact-one"},"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|9-xl","bottom":"var:preset|spacing|9-xl","left":"var:preset|spacing|2-xl","right":"var:preset|spacing|2-xl"},"blockGap":"var:preset|spacing|7-xl","margin":{"top":"0","bottom":"0"}}},"backgroundColor":"primary-50","layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull has-primary-50-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--9-xl);padding-right:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--9-xl);padding-left:var(--wp--preset--spacing--2-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|xl"}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull has-primary-50-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--9-xl);padding-right:var(--wp--preset--spacing--2-xl);padding-bottom:var(--wp--preset--spacing--9-xl);padding-left:var(--wp--preset--spacing--2-xl)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|lg"}},"layout":{"type":"constrained"}} -->
     <div class="wp-block-group"><!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-700"}}}},"textColor":"primary-700"} -->
-        <p class="has-text-align-center has-primary-700-color has-text-color has-link-color">Tagline Here</p>
+        <p class="has-text-align-center has-primary-700-color has-text-color has-link-color"><?php esc_html_e( 'Tagline Here', 'blockera' ); ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:heading {"textAlign":"center"} -->
-        <h2 class="wp-block-heading has-text-align-center">Contact Us</h2>
+        <h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Contact Us', 'blockera' ); ?></h2>
         <!-- /wp:heading -->
 
         <!-- wp:paragraph {"align":"center"} -->
-        <p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p class="has-text-align-center"><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'blockera' ); ?></p>
         <!-- /wp:paragraph -->
 
         <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
         <div class="wp-block-buttons"><!-- wp:button {"textAlign":"center"} -->
-            <div class="wp-block-button"><a class="wp-block-button__link has-text-align-center wp-element-button">Get Directions</a></div>
+            <div class="wp-block-button"><a class="wp-block-button__link has-text-align-center wp-element-button"><?php esc_html_e( 'Get Directions', 'blockera' ); ?></a></div>
             <!-- /wp:button -->
         </div>
         <!-- /wp:buttons -->
@@ -43,11 +43,11 @@
             <!-- /wp:image -->
 
             <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"2xl"} -->
-            <h3 class="wp-block-heading has-text-align-center has-2-xl-font-size">Phone</h3>
+            <h3 class="wp-block-heading has-text-align-center has-2-xl-font-size"><?php esc_html_e( 'Phone', 'blockera' ); ?></h3>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center"><ins>+1 (222) 000-000</ins></p>
+            <p class="has-text-align-center"><ins><?php esc_html_e( '+1 (222) 000-000', 'blockera' ); ?></ins></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
@@ -58,11 +58,11 @@
             <!-- /wp:image -->
 
             <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"2xl"} -->
-            <h3 class="wp-block-heading has-text-align-center has-2-xl-font-size">E-mail</h3>
+            <h3 class="wp-block-heading has-text-align-center has-2-xl-font-size"><?php esc_html_e( 'E-mail', 'blockera' ); ?></h3>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center"><ins>hello@domain.com</ins></p>
+            <p class="has-text-align-center"><ins><?php esc_html_e( 'hello@domain.com', 'blockera' ); ?></ins></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
@@ -73,11 +73,11 @@
             <!-- /wp:image -->
 
             <!-- wp:heading {"textAlign":"center","level":3,"fontSize":"2xl"} -->
-            <h3 class="wp-block-heading has-text-align-center has-2-xl-font-size">Location</h3>
+            <h3 class="wp-block-heading has-text-align-center has-2-xl-font-size"><?php esc_html_e( 'Location', 'blockera' ); ?></h3>
             <!-- /wp:heading -->
 
             <!-- wp:paragraph {"align":"center"} -->
-            <p class="has-text-align-center"><ins>123 Example Street San Franciso</ins></p>
+            <p class="has-text-align-center"><ins><?php esc_html_e( '123 Example Street San Franciso', 'blockera' ); ?></ins></p>
             <!-- /wp:paragraph -->
         </div>
         <!-- /wp:column -->
