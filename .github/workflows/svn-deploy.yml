@@ -1,0 +1,21 @@
+name: Deploy Theme to WordPress.org
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Deploy to WordPress.org Theme SVN
+        uses: philipjohn/wordpress-theme-deploy@main
+        with:
+          build-dir: '.'
+        env:
+          SVN_USERNAME: ${{ secrets.SVN_USERNAME }}
+          SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
+          SLUG: blockera
