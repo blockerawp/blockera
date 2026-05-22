@@ -1,0 +1,42 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+    "title": "Outfit",
+    "slug": "typography-outfit",
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--outfit)",
+            "fontWeight": "400"
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--outfit)",
+                    "fontWeight": "500"
+                }
+            }
+        }
+    },
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Outfit, sans-serif",
+                    "name": "Outfit",
+                    "slug": "outfit",
+                    "fontFace": [
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Outfit",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/outfit/OutfitVF.woff2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

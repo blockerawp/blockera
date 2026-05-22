@@ -1,0 +1,42 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+    "title": "Libre Baskerville",
+    "slug": "typography-libre-baskerville",
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--libre-baskerville)",
+            "fontWeight": "400"
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--libre-baskerville)",
+                    "fontWeight": "500"
+                }
+            }
+        }
+    },
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Libre Baskerville, serif",
+                    "name": "Libre Baskerville",
+                    "slug": "libre-baskerville",
+                    "fontFace": [
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Libre Baskerville",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/libre-baskerville/LibreBaskervilleVF.woff2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

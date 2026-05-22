@@ -1,0 +1,42 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+    "title": "Sofia Sans Condensed",
+    "slug": "typography-sofia-sans-condensed",
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--sofia-sans-condensed)",
+            "fontWeight": "400"
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--sofia-sans-condensed)",
+                    "fontWeight": "500"
+                }
+            }
+        }
+    },
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Sofia Sans Condensed, sans-serif",
+                    "name": "Sofia Sans Condensed",
+                    "slug": "sofia-sans-condensed",
+                    "fontFace": [
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Sofia Sans Condensed",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/sofia-sans-condensed/SofiaSansCondensedVF.woff2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

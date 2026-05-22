@@ -5,5 +5,4 @@
  * @link https://core.trac.wordpress.org/ticket/54272
  *
  * @package blockera
- * @since 1.0.0
  */

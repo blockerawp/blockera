@@ -1,0 +1,42 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+    "title": "Playfair Display",
+    "slug": "typography-playfair-display",
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--playfair-display)",
+            "fontWeight": "400"
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--playfair-display)",
+                    "fontWeight": "500"
+                }
+            }
+        }
+    },
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Playfair Display, serif",
+                    "name": "Playfair Display",
+                    "slug": "playfair-display",
+                    "fontFace": [
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Playfair Display",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/playfair-display/PlayfairDisplayVF.woff2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

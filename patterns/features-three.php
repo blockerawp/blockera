@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Title: Features Three
  * Slug: features-three

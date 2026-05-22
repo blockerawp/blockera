@@ -1,7 +1,7 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Blue",
+	"title": "Emerald",
 	"settings": {
 		"color": {
 			"palette": [
@@ -126,10 +126,10 @@
 				{
 				  "colors": [
 					"#009966",
-					"#EBF5FF"
+					"#5ee9b5"
 				  ],
 				  "slug": "primary-blue",
-				  "name": "primary blue"
+				  "name": "Emerald Duotone"
 				}
 			]
 		}

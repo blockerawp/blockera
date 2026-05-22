@@ -1,0 +1,137 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 3,
+	"title": "Green",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "primary-950",
+					"color": "#032E15",
+					"name": "Primary 950"
+				},
+				{
+					"slug": "primary-900",
+					"color": "#0D542B",
+					"name": "Primary 900"
+				},
+				{
+					"slug": "primary-800",
+					"color": "#016630",
+					"name": "Primary 800"
+				},
+				{
+					"slug": "primary-700",
+					"color": "#008235",
+					"name": "Primary 700"
+				},
+				{
+					"slug": "primary-600",
+					"color": "#00A63E",
+					"name": "Primary 600"
+				},
+				{
+					"slug": "primary-500",
+					"color": "#00C950",
+					"name": "Primary 500"
+				},
+				{
+					"slug": "primary-400",
+					"color": "#05DF72",
+					"name": "Primary 400"
+				},
+				{
+					"slug": "primary-300",
+					"color": "#7BF1A8",
+					"name": "Primary 300"
+				},
+				{
+					"slug": "primary-200",
+					"color": "#B9F8CF",
+					"name": "Primary 200"
+				},
+				{
+					"slug": "primary-100",
+					"color": "#DBFCE7",
+					"name": "Primary 100"
+				},
+				{
+					"slug": "primary-50",
+					"color": "#F0FDF4",
+					"name": "Primary 50"
+				},
+
+				{
+					"slug": "neutral-950",
+					"color": "#030712",
+					"name": "Neutral 950"
+				},
+				{
+					"slug": "neutral-900",
+					"color": "#111827",
+					"name": "Neutral 900"
+				},
+				{
+					"slug": "neutral-800",
+					"color": "#1f2937",
+					"name": "Neutral 800"
+				},
+				{
+					"slug": "neutral-700",
+					"color": "#374151",
+					"name": "Neutral 700"
+				},
+				{
+					"slug": "neutral-600",
+					"color": "#4b5563",
+					"name": "Neutral 600"
+				},
+				{
+					"slug": "neutral-500",
+					"color": "#6b7280",
+					"name": "Neutral 500"
+				},
+				{
+					"slug": "neutral-400",
+					"color": "#9ca3af",
+					"name": "Neutral 400"
+				},
+				{
+					"slug": "neutral-300",
+					"color": "#d1d5db",
+					"name": "Neutral 300"
+				},
+				{
+					"slug": "neutral-200",
+					"color": "#e5e7eb",
+					"name": "Neutral 200"
+				},
+				{
+					"slug": "neutral-100",
+					"color": "#f3f4f6",
+					"name": "Neutral 100"
+				},
+				{
+					"slug": "neutral-50",
+					"color": "#f9fafb",
+					"name": "Neutral 50"
+				},
+				{
+					"slug": "white",
+					"color": "#ffffff",
+					"name": "White"
+				}
+			],
+			"duotone": [
+				{
+				  "colors": [
+					"#00A63E",
+					"#7BF1A8"
+				  ],
+				  "slug": "primary-blue",
+				  "name": "Green Duotone"
+				}
+			]
+		}
+	}
+}

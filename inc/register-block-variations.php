@@ -3,7 +3,6 @@
  * Block Variations
  *
  * @package blockera
- * @since 1.0.0
  */
 
 /**
@@ -12,7 +11,6 @@
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-variations/
  *
- * @since 1.0.0
  *
  * @return void
  */

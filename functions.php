@@ -5,20 +5,20 @@
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package blockera
- * @since 1.0.0
+ 
  */
 
 /**
  * The theme version.
  *
- * @since 1.0.0
+ 
  */
 define( 'BLOCKERA_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /**
  * Add theme support for block styles and editor style.
  *
- * @since 1.0.0
+ 
  *
  * @return void
  */
@@ -46,7 +46,7 @@ add_action( 'after_setup_theme', 'blockera_setup' );
 /**
  * Enqueue the CSS files.
  *
- * @since 1.0.0
+ 
  *
  * @return void
  */

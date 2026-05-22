@@ -1,0 +1,42 @@
+{
+    "version": 3,
+    "$schema": "https://schemas.wp.org/wp/7.0/theme.json",
+    "title": "Quicksand",
+    "slug": "typography-quicksand",
+    "styles": {
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--quicksand)",
+            "fontWeight": "400"
+        },
+        "elements": {
+            "heading": {
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--quicksand)",
+                    "fontWeight": "500"
+                }
+            }
+        }
+    },
+    "settings": {
+        "typography": {
+            "fontFamilies": [
+                {
+                    "fontFamily": "Quicksand, sans-serif",
+                    "name": "Quicksand",
+                    "slug": "quicksand",
+                    "fontFace": [
+                        {
+                            "fontDisplay": "block",
+                            "fontFamily": "Quicksand",
+                            "fontStyle": "normal",
+                            "fontWeight": "100 900",
+                            "src": [
+                                "file:./assets/fonts/quicksand/QuicksandVF.woff2"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

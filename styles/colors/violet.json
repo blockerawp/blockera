@@ -1,63 +1,63 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/theme.json",
 	"version": 3,
-	"title": "Blue",
+	"title": "Violet",
 	"settings": {
 		"color": {
 			"palette": [
 				{
 					"slug": "primary-950",
-					"color": "#2e1065",
+					"color": "#2F0D68",
 					"name": "Primary 950"
 				},
 				{
 					"slug": "primary-900",
-					"color": "#4c1d95",
+					"color": "#4D179A",
 					"name": "Primary 900"
 				},
 				{
 					"slug": "primary-800",
-					"color": "#5b21b6",
+					"color": "#5D0EC0",
 					"name": "Primary 800"
 				},
 				{
 					"slug": "primary-700",
-					"color": "#6d28d9",
+					"color": "#7008E7",
 					"name": "Primary 700"
 				},
 				{
 					"slug": "primary-600",
-					"color": "#7c3aed",
+					"color": "#7F22FE",
 					"name": "Primary 600"
 				},
 				{
 					"slug": "primary-500",
-					"color": "#8b5cf6",
+					"color": "#8E51FF",
 					"name": "Primary 500"
 				},
 				{
 					"slug": "primary-400",
-					"color": "#a78bfa",
+					"color": "#A684FF",
 					"name": "Primary 400"
 				},
 				{
 					"slug": "primary-300",
-					"color": "#c4b5fd",
+					"color": "#C4B3FF",
 					"name": "Primary 300"
 				},
 				{
 					"slug": "primary-200",
-					"color": "#ddd6fe",
+					"color": "#DDD6FF",
 					"name": "Primary 200"
 				},
 				{
 					"slug": "primary-100",
-					"color": "#ede9fe",
+					"color": "#EDE9FE",
 					"name": "Primary 100"
 				},
 				{
 					"slug": "primary-50",
-					"color": "#f5f3ff",
+					"color": "#F5F3FF",
 					"name": "Primary 50"
 				},
 
@@ -125,11 +125,11 @@
 			"duotone": [
 				{
 				  "colors": [
-					"#6d28d9",
-					"#EBF5FF"
+					"#7F22FE",
+					"#C4B3FF"
 				  ],
 				  "slug": "primary-blue",
-				  "name": "primary blue"
+				  "name": "Violet Duotone"
 				}
 			]
 		}
