@@ -36,12 +36,11 @@
         <!-- /wp:buttons -->
     </div>
 <!-- /wp:column -->
-<!-- wp:column {"verticalAlignment":"center","className":"is-style-default","backgroundColor":"Primary-Light","layout":{"type":"default"}} -->
-    <div class="wp-block-column is-vertically-aligned-center is-style-default has-primary-light-background-color has-background"><!-- wp:image {"id":364,"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|primary-blue"}}} -->
-        <figure class="wp-block-image aligncenter size-large"><img src="http://localhost:8884/wp-content/themes/blockera/assets/images/hero-01.svg" alt="" class="wp-image-364" style="aspect-ratio:1;object-fit:cover"/>
-        </figure>
-    <!-- /wp:image -->
-</div>
+ <!-- wp:column {"verticalAlignment":"center","className":"is-style-default","backgroundColor":"Primary-Light","layout":{"type":"default"}} -->
+        <div class="wp-block-column is-vertically-aligned-center is-style-default has-primary-light-background-color has-background"><!-- wp:image {"id":364,"aspectRatio":"1","scale":"cover","sizeSlug":"large","linkDestination":"none","align":"center","style":{"color":{"duotone":"var:preset|duotone|primary-blue"}}} -->
+            <figure class="wp-block-image aligncenter size-large"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/hero-01.svg" alt="" class="wp-image-364" style="aspect-ratio:1;object-fit:cover" /></figure>
+            <!-- /wp:image -->
+        </div>
 <!-- /wp:column -->
 </div>
 <!-- /wp:columns -->

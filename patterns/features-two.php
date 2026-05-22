@@ -29,7 +29,7 @@
                 <!-- /wp:paragraph -->
                 <!-- wp:group {"style":{"spacing":{"blockGap":"16px"}},"layout":{"type":"flex","orientation":"vertical","flexWrap":"nowrap","verticalAlignment":"top"}} -->
                     <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-                        <div class="wp-block-group"><!-- wp:icon {"icon":"core/language","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} /-->
+                        <div class="wp-block-group"><!-- wp:icon {"icon":"core/language","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}},"dimensions":{"width":"28px"}},"textColor":"primary-600"} /-->
                             <!-- wp:paragraph -->
                                 <p><?php esc_html_e('Continuous integration and deployment', 'blockera'); ?>
 </p>
@@ -37,7 +37,7 @@
                         </div>
                     <!-- /wp:group -->
                     <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|sm"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
-                        <div class="wp-block-group"><!-- wp:icon {"icon":"core/shadow","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}}},"textColor":"primary-600"} /-->
+                        <div class="wp-block-group"><!-- wp:icon {"icon":"core/shadow","style":{"elements":{"link":{"color":{"text":"var:preset|color|primary-600"}}},"dimensions":{"width":"28px"}},"textColor":"primary-600"} /-->
                             <!-- wp:paragraph -->
                                 <p><?php esc_html_e('Limitless business automation', 'blockera'); ?>
 </p>
