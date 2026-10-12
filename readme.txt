@@ -1,11 +1,11 @@
 === Blockera WordPress Block Theme ===
-Contributors: Blockera
+Contributors: blockera, mahdiali, sadikali
 Tags: blog, portfolio, entertainment, grid-layout, one-column, two-columns, three-columns, four-columns, block-patterns, block-styles, custom-logo, custom-menu, editor-style, featured-images, full-site-editing, full-width-template, rtl-language-support, style-variations, template-editing, theme-options, translation-ready, wide-blocks, patterns, starter-site, templates
-Tested up to: 7.0
+Tested up to: 7.1
 Requires at least: 6.3
 Requires PHP: 7.4
-Version: 1.0.2
-Stable tag: 1.0.2
+Version: 1.0.3
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,6 +13,9 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Blockera is a modern, fast & lightweight WordPress block theme designed for blogs, portfolios, business websites, startups, and all kinds of creative websites. It comes with ready-made block patterns, flexible layouts, custom color palettes, typography presets, and full site editing support for easy customization. Built with performance and responsiveness in mind, Blockera delivers a clean and seamless website-building experience using the native WordPress block editor. Whether you are creating a personal blog, agency website, or professional portfolio, Blockera helps you launch polished and modern websites with minimal setup.
 
 == Changelog ==
+= 1.0.3 | 12 Oct 2026 =
+* Updated: Tested up to WordPress 7.1
+
 = 1.0.2 | 22nd May 2026 =
 * Improved header pattern code formatting.
 * Updated header button text to use translation-ready escaping.
