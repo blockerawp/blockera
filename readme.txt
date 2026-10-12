@@ -6,8 +6,8 @@ Requires at least: 6.3
 Requires PHP: 7.4
 Version: 1.0.3
 Stable tag: 1.0.3
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 Blockera is a modern, fast & lightweight WordPress block theme designed for blogs, portfolios, business websites, startups, and all kinds of creative websites. It comes with ready-made block patterns, flexible layouts, custom color palettes, typography presets, and full site editing support for easy customization. Built with performance and responsiveness in mind, Blockera delivers a clean and seamless website-building experience using the native WordPress block editor. Whether you are creating a personal blog, agency website, or professional portfolio, Blockera helps you launch polished and modern websites with minimal setup.
